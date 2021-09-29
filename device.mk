@@ -442,5 +442,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit proprietary targets
-$(call inherit-product, vendor/xiaomi/sm6250-common/sm6250-common-vendor.mk)
 $(call inherit-product, vendor/xiaomi/miatoll/miatoll-vendor.mk)
