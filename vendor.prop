@@ -70,7 +70,6 @@ vendor.audio.offload.gapless.enabled=true
 vendor.audio.offload.multiaac.enable=true
 vendor.audio.offload.multiple.enabled=false
 vendor.audio.offload.passthrough=false
-vendor.audio.offload.track.enable=false
 vendor.audio.parser.ip.buffer.size=262144
 vendor.audio.safx.pbe.enabled=false
 vendor.audio.tunnel.encode=false
@@ -83,6 +82,17 @@ vendor.audio_hal.in_period_size=144
 vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
+
+#Audio HAL Ext.
+ro.vendor.audio.spk.clean=true
+ro.vendor.audio.soundfx.type=mi
+ro.vendor.audio.vocal.support=false
+ro.vendor.audio.surround.support=false
+ro.vendor.audio.spk.stereo=false
+ro.vendor.audio.scenario.support=false
+ro.vendor.audio.sfx.scenario=false
+ro.vendor.audio.sfx.earadj=false
+ro.vendor.audio.soundfx.usb=true
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
