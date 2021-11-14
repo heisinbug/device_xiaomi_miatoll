@@ -15,9 +15,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-#MiuiCamera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
-
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -97,7 +94,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
-    Snap
+    GoogleCamera
 
 # Component overrides
 PRODUCT_COPY_FILES += \
